@@ -23,4 +23,5 @@ public interface IUserApi {
 
 	@PostMapping("/")
 	Mono<User> createUser(@RequestBody Mono<User> user);
+
 }
